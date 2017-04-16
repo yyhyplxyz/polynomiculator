@@ -117,14 +117,19 @@ void Calculator::show(bool operationType, const std::string& content, std::strin
 
 ````
 ### 实验结果与测试改错
-#### 最新修改，模拟智能识别简单错误，改stod函数为sscanf函数，忽略掉不合法的字符，如字母，“)”, 与","等。
-![表达式中忽视a该字符，自动替换成0](https://github.com/yyhyplxyz/polynomiculator/blob/pictures/2017-04-16%2017-02-21%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png"表达式中忽视a该字符，自动替换成0")
+#### 最新修改，模拟智能识别简单错误，改stod函数为sscanf函数，忽略掉不合法的字符，如字母，“)”, 与","等。如图，表达式中忽视a该字符，自动替换成0
+![表达式中忽视a该字符，自动替换成0](https://github.com/yyhyplxyz/polynomiculator/blob/pictures/2017-04-16%2017-02-21%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
 #### 常规输入的实验结果
-![用户指南](https://github.com/yyhyplxyz/polynomiculator/blob/pictures/2017-04-16%2014-16-37%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png"用户指南")
-![数学计算](https://github.com/yyhyplxyz/polynomiculator/blob/pictures/2017-04-16%2014-17-59%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png"数学计算")
-![map中存储了的多项式](https://github.com/yyhyplxyz/polynomiculator/blob/pictures/2017-04-16%2014-18-29%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png"map中存储了的多项式")
-![求值运算](https://github.com/yyhyplxyz/polynomiculator/blob/pictures/2017-04-16%2014-19-43%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png"求值运算")
-![完全错误的输入](https://github.com/yyhyplxyz/polynomiculator/blob/pictures/2017-04-16%2014-24-52%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png"完全错误的输入")
+##### 用户指南
+![用户指南](https://github.com/yyhyplxyz/polynomiculator/blob/pictures/2017-04-16%2014-16-37%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+##### 数学计算
+![数学计算](https://github.com/yyhyplxyz/polynomiculator/blob/pictures/2017-04-16%2014-17-59%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+##### map中存储了的多项式
+![map中存储了的多项式](https://github.com/yyhyplxyz/polynomiculator/blob/pictures/2017-04-16%2014-18-29%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+##### 求值运算
+![求值运算](https://github.com/yyhyplxyz/polynomiculator/blob/pictures/2017-04-16%2014-19-43%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+##### 完全错误的输入
+![完全错误的输入](https://github.com/yyhyplxyz/polynomiculator/blob/pictures/2017-04-16%2014-24-52%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
 ### 心得体会
 #### 首先通过本题深刻理解了软件开发过程中，开发前的框架设计和数据结构的选取乃至算法的使用是非常重要的，这个能力应该也是在美国的STEM职业中分别程序员与软件开发工程师的重要标准
 #### 其次自己通过实际动手练习，大大提高了对string类的了解，包括getline，stod，sscanf几个函数，熟悉了文件读写的操作。
